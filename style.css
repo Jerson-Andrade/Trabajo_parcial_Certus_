@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+
+    background: #3a3d47;
+    font-family: verdana;
+    
+}
+
+.container{
+    width: 1200px;
+    height: 100%;
+    background:white;
+    margin: 5px auto;
+}
+
+.superior{
+    background: #043d19;
+    width: 100%;
+    height: 4%;
+    overflow: hidden;
+    margin-top: 10px solid yellow;
+}
+
+.logo{
+    width: 300px;
+    padding: 20px;
+    float: left;
+    margin-top: 5px;
+}
+.imagen_logo{
+
+        width: 250px;
+        height: 60px;
+}
+
+.menu{
+ float: left;
+ padding: 45px;
+ margin-left: 300px;
+
+}
+.opciones li{
+    float: left;
+    list-style: none;
+
+}
+
+.opciones li a{
+    color: white;
+    text-decoration: none;
+    padding: 22px;
+    border:1px solid rgb(32, 32, 32);
+}
+
+.opciones li a:hover{
+    background: #00E600;
+}
+
+
+.caja{
+    background: rgb(245, 177, 30);
+}
+
+.cuerpo{
+    overflow: hidden;
+}
+
+.caja{
+    float: left;
+    width: 380px;
+  
+    margin: 10px ;
+}
+
+.subtitulo{
+
+    background:#022B0B ;
+}
+
+.servi{
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.efecto{
+
+    width:370px;
+    height:300px;
+}
+
+.efecto:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+
+.Bienveni{
+
+    text-align: center;
+    color: rgb(255, 166, 0);
+    padding: 10px;
+}
+.parrafo{
+    background: white;
+    border-style: groove ;
+    border-color: rgb(179, 178, 178);
+    text-align: justify;
+    padding: 20px;
+    height: 250px;
+}
+
+.btn{
+    padding: 15px;
+    margin: 30px;
+    background: #00E600;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background: #21bad9;
+
+}
+/*Inicio de form*/
+.formularioconten{
+
+    width: 100%;
+    background-color: #51565a;
+    
+
+}
+
+
+form{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.tituloc{
+    text-align: center;
+    border: none;
+    border: 1px ;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color:black;
+    font-size: 35px;
+
+}
+.cajasf{
+
+
+
+    width: 100%;
+    padding: 10px;
+    
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;
+    border-left: 20px solid #00E600;
+    border-right:20px solid #00E600 ;
+ 
+}
+.cajas:hover{
+    border-left: 20px solid #001005;
+    border-right:20px solid #001005 ;
+
+}
+
+#comentarios{
+
+    height: 70px;
+}
+
+.termino1{
+    text-align: center;
+}
+
+.termino2{
+   text-decoration: none; 
+   color: white;
+}
+.termino2:hover{
+    color: #33b1c1;
+}
+.btnenv{
+    
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background: #106E1E;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    color:  white;
+    margin-left: 29px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btnenv:hover{
+    background: #0c0d0e;
+    cursor: pointer;
+}
+
+
+
+
+/**termino de form*/
+.foot{
+
+    width: 1200px;
+    height: 150px;
+    background: #001005;
+    margin: 0px auto;
+    margin-top: -25px;
+
+}
+
+.logo-footer{
+width: 250px;
+height: 30px;
+padding: 20px;
+margin:25px 3px ;
+}
+
+.img-footer{
+
+    width: 350px;
+    height:100px;
+}
+
+.parra-fot{
+    width: 400px;
+    height: 30px;
+    padding: 15px;
+    color: white;
+    font-size: 10px;
+    text-align: justify;
+    position: relative;
+    bottom: 25px;
+    margin: 45px;
+    
+}
+.img-foot{
+    float:right;
+}
+
+.img-foot{
+    float:right;
+    position: relative;
+    width: 300px;
+    bottom: 175px;
+    margin: 15px ;
+    margin-right: 160px;
+}
+
+.img-foot > img{
+
+    width: 40px;
+    height: 40px;
+    margin: 0 3px;
+    
+}
+
+.text-footer{
+
+    color: white;
+text-align: right;
+margin: 0px 190px;
+position: relative;
+top: -170px;    
+}
+
